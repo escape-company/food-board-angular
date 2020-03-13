@@ -9,6 +9,7 @@
 		"plugin:prettier/recommended",
 		"prettier",
 		"prettier/@typescript-eslint",
+		"plugin:sonarjs/recommended",
 		"plugin:import/errors",
 		"plugin:import/warnings",
 		"plugin:import/typescript"
