@@ -1,0 +1,7 @@
+<mat-toolbar color="primary">
+  <a mat-button [routerLink]="['/']">Food Board</a>
+  <a mat-button [routerLink]="['/store']">Store</a>
+  <span class='spacer'></span>
+  <button mat-button (click)='logout()'>로그아웃</button>
+</mat-toolbar>
+<router-outlet></router-outlet>
