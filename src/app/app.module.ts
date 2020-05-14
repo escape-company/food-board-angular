@@ -12,10 +12,20 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { AppComponent } from './app.component';
 import { LayoutComponent } from './layout/layout.component';
 import { PageNotFoundComponent } from './pageNotFound/pageNotFound.component';
+import { GraphQLModule } from './graphql.module';
 
 @NgModule({
   declarations: [AppComponent, LayoutComponent, PageNotFoundComponent],
-  imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule, MatCardModule, MatButtonModule, MatToolbarModule, HttpClientModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatCardModule,
+    MatButtonModule,
+    MatToolbarModule,
+    HttpClientModule,
+    GraphQLModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
